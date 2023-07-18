@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.header {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+}
+.logo-container {
+  width: 20%;
+  border: 1px solid yellowgreen;
+}
+.logo {
+  width: 20%;
+  height: 90%;
+  border-radius: 50%;
+}
+.nav-items {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  border: 2px solid aqua;
+}
+.nav-items ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid red;
+}
+.nav-items ul li{
+  list-style: none;
+  font-size: 1.6rem;
+}
+.res-cards{
+    height: 20rem;
+    width: 13rem;
+    border: 2px solid black;
+}
