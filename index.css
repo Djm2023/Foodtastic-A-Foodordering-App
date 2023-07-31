@@ -35,14 +35,38 @@ html {
 .nav-items ul {
   width: 70%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   /* border: 2px solid red; */
 }
 .nav-items ul li {
+  cursor: pointer;
   list-style: none;
   font-size: 1.8rem;
 }
+.nav-items ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-items ul li a:hover {
+  color: #e58a4a;
+}
+
+.login-btn {
+  padding: 0.8rem 1.5rem;
+  background-color: #f7751b;
+  color: white;
+  border: 0;
+  outline: 0;
+  font-family: serif;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #e58a4a;
+}
+
 /* .res-container {
   border: 2px solid red;
   width: 100%;
@@ -108,6 +132,15 @@ html {
   height: 5rem;
   /* border: 2px solid red; */
 }
+.filter-btn {
+  padding: 1.3rem;
+  margin-top: -1.5rem;
+  color: white;
+  border: 0;
+  outline: 0;
+  background-color: #f7751b;
+  border-radius: 0.8rem;
+}
 
 .shimmer-container {
   margin-top: 3rem;
@@ -143,5 +176,40 @@ html {
   width: 100%;
   height: 20%;
   margin-top: 2rem;
-  background-color:#f5f5f5;
+  background-color: #f5f5f5;
+}
+.filter {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-top: 3.5rem;
+}
+.search {
+  width: 30%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(219, 216, 216);
+  border-radius: 0.8rem;
+  margin-right: 2rem;
+  margin-bottom: 1.5rem;
+}
+.search input {
+  width: 80%;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  outline: 0;
+  border: 1px;
+}
+.search button {
+  width: 20%;
+  border-radius: 0.8rem;
+  padding: 1.2rem;
+  border: 0;
+  outline: 0;
+  background-color: #f7751b;
+  color: white;
 }
